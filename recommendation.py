@@ -5,7 +5,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 
 # movie_data = pd. read_csv('movie_data.csv.zip')
 def get_data():
-    movie_data = pd.read_csv('movie_data.csv.zip')
+    movie_data = pd.read_csv('data/movie_data.csv.zip')
     movie_data['original_title'] = movie_data['original_title'].str.lower()
     return movie_data
 
